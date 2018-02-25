@@ -7,13 +7,19 @@ body {
 }
 
 .targetNumber {
-	background-color: lightgray; border-radius: 15px 30px;
+	background-color: lightgray; 
+	border-radius: 15px 30px;
+	border: 2px solid rgb(156, 114, 156);
 }
 
 .winsLosses {
-	background-color: lightgray; border-radius: 30px 15px;
+	background-color: lightgray; 
+	border-radius: 30px 15px;
+	border: 2px solid rgb(156, 114, 156);
 }
 
 .score {
-	background-color: pink; border-radius: 15px;
+	background-color: pink; 
+	border-radius: 15px;
+	border: 2px solid rgb(131, 166, 199);
 }
