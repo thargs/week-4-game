@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="jumbotron text-center">
+            <h1>CRYSTAL COLLECTOR!</h1>
+                <br>
+            <h4>You will be given a random Target Number to start the game.</h4>
+                <br>
+            <h4>Each crystal below will be given a random value.</h4>
+                <br>
+            <h4>When you click on a crystal your score will increase by that crystals value.</h4>
+                <br>
+            <h4>You win the game by collecting the same amount in crystals as the Target Number.</h4>
+
+
+        </div>
+
+
+
+        <div class="row">
+                <div class="col-md-3 col-md-offset-1 targetNumber">
+                    <h2>Target Number</h2>
+                    <br>
+                    <h3  id="targetNumber" class="text-center"> </h3>
+                </div>
+                <div class="col-md-6 col-md-offset-1 blankSpace">
+                </div>
+                <div class="col-md-3 col-md-offset-1 winsLosses">
+                    <br>
+                    <h5 id="numberOfWins"> </h5>
+                    <h5 id="numberOfLosses"> </h5>
+                </div>
+        </div>
+
+
+
+        <div class="row">
+                <div class="col-md-3 col-md-offset-1 gem" value="purple">
+                    <img src="assets/images/purple.jpeg" class="img-responsive" alt="Purple Crystal">
+                </div>
+                <div class="col-md-3 col-md-offset-1 gem" value="pink">
+                    <img src="assets/images/pink.jpeg" class="img-responsive" alt="Pink Crystal">
+                </div>
+                <div class="col-md-3 col-md-offset-1 gem" value="blue">
+                    <img src="assets/images/blue.jpeg" class="img-responsive" alt="Blue Crystal">
+                </div>
+                <div class="col-md-1 col-md-offset-1 gem" value="red">
+                    <img src="assets/images/red.jpeg" class="img-responsive" alt="Red Crystal">
+                </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row text-center">
+                <div class="col-md-4 col-md-offset-1">
+
+                </div>
+                <div class="col-md-4 col-md-offset-1 score">
+                    <h2>Your Score</h2>
+                    <br>
+                    <h1 id="userScore">score</h1>
+                </div>
+        </div>
+    
+           
+
+
+
+    </div>
+
+    
+</body>
+</html>

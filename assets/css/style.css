@@ -1,0 +1,19 @@
+body {
+	background: white;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.targetNumber {
+	background-color: lightgray; border-radius: 15px 30px;
+}
+
+.winsLosses {
+	background-color: lightgray; border-radius: 30px 15px;
+}
+
+.score {
+	background-color: pink; border-radius: 15px;
+}
